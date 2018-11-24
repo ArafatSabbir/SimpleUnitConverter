@@ -30,18 +30,23 @@
 
     <Button
         android:id="@+id/btnPounds"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/editWeight"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/btn"
         android:text="Convert to Pounds" />
 
     <Button
         android:id="@+id/btnKilograms"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/btnPounds"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
         android:text="Convert to Kilograms" />
 
 </RelativeLayout>

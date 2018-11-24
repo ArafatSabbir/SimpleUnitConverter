@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/editTemperature"
-        android:text="Convert to Celisus" />
+        android:text="Convert to Celsius" />
 
     <Button
         android:id="@+id/btnFarenheit"
@@ -40,6 +40,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/btnCelisus"
-        android:text="Convert to Farenheit " />
+        android:text="Convert to Fahrenheit " />
 
 </RelativeLayout>
